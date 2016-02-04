@@ -1,0 +1,15 @@
+cli:
+  image: tutum/curl:trusty
+  links:
+    - web
+  command: >
+    bash -c "
+      while [ true ]
+        do sleep 60
+      done
+    "
+
+web:
+  image: kitematic/hello-world-nginx
+  expose:
+    - 80
