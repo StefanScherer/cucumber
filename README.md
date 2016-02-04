@@ -1,4 +1,4 @@
 # cucumber
-Run Cucumber tests with Docker containers on TravisCI.
+Run Cucumber tests with Docker containers in TravisCI.
 
 **WORK IN PROGRESS**
